@@ -4,7 +4,8 @@ This is a repository containing iOS assignment that i have done at Humber colleg
 1. Hello Time F
  is an application that displays system time in the center of the screen using NSDate.
 
-
+Images Below:-
+https://github.com/japnam89/iOS-repository/issues/1
 
 2. Assigment 2
 In this assignment 2 we have learned
@@ -12,6 +13,8 @@ created Custom view controller with 4 Textfield and on clicking submit it will d
 On hitting Cancel(touch down) it will clear the value.
 How to add constraints and apply them effectively.
 Terms used:- IBAction,@sytnhesize, resignFirstResponder,StringWithFormat,UIAlertView,delegate.
+Images Below:-
+https://github.com/japnam89/iOS-repository/issues/4
 
 
 3. LocalizeMe
@@ -20,3 +23,5 @@ Added french,german language with their country flag.
 We are printing simply three words Go,hello,thank you in english,french,german languages.
 Terms Used:- Localization,NSLocalizedString,NSLocaleIdentifier
  NSLocale,UIKIT,CoreFoundation,CoreGraphics.
+Images Below:-
+https://github.com/japnam89/iOS-repository/issues/3
