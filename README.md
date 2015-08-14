@@ -12,3 +12,11 @@ created Custom view controller with 4 Textfield and on clicking submit it will d
 On hitting Cancel(touch down) it will clear the value.
 How to add constraints and apply them effectively.
 Terms used:- IBAction,@sytnhesize, resignFirstResponder,StringWithFormat,UIAlertView,delegate.
+
+
+3. LocalizeMe
+ LocalizeMe is an Book Sample(Beginning iOS 7 by apress)
+Added french,german language with their country flag.
+We are printing simply three words Go,hello,thank you in english,french,german languages.
+Terms Used:- Localization,NSLocalizedString,NSLocaleIdentifier
+ NSLocale,UIKIT,CoreFoundation,CoreGraphics.
