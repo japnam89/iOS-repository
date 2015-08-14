@@ -26,3 +26,9 @@ Terms Used:- Localization,NSLocalizedString,NSLocaleIdentifier
  NSLocale,UIKIT,CoreFoundation,CoreGraphics.
 Images Below:-
 https://github.com/japnam89/iOS-repository/issues/3
+
+4. Map
+It is an simple application that displays map of location using coordinates. (humber college north campus).
+Terms Used:- MapKit,UIKit,MKMapView,MKCoordinationRegion,MKPointAnnotation,CLLocationCoordinate2DMake.
+Image here:-
+https://github.com/japnam89/iOS-repository/issues/5
