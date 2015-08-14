@@ -5,8 +5,8 @@ This is a repository containing iOS assignments,project that i have learned at h
 
 Images Below:-
 https://github.com/japnam89/iOS-repository/issues/1
-
-2.  Assigment 2 - In this we have learned
+ 
+2. Assigment 2 - In this we have learned
 a) created Custom view controller with 4 Textfield and on clicking submit it will display their values with an alert view.
 On hitting Cancel(touch down) it will clear the value.
 b) How to add constraints and apply them effectively.
