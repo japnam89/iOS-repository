@@ -5,3 +5,10 @@ This is a repository containing iOS assignment that i have done at Humber colleg
 it is application that displays system time in the center of the screen using NSDate.
 Also,created custom videw controller in this app.
 
+
+2. Assigment 2
+In this assignment 2 we have learned
+created Custom view controller with 4 Textfield and on clicking submit it will display their values with an alert view.
+On hitting Cancel(touch down) it will clear the value.
+How to add constraints and apply them effectively.
+Terms used:- IBAction,@sytnhesize, resignFirstResponder,StringWithFormat,UIAlertView,delegate.
