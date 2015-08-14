@@ -12,7 +12,8 @@ In this assignment 2 we have learned
 created Custom view controller with 4 Textfield and on clicking submit it will display their values with an alert view.
 On hitting Cancel(touch down) it will clear the value.
 How to add constraints and apply them effectively.
-Terms used:- IBAction,@sytnhesize, resignFirstResponder,StringWithFormat,UIAlertView,delegate.
+Terms used:- IBAction,@sytnhesize, resignFirstResponder,StringWithFormat,
+UIAlertView,delegate.
 Images Below:-
 https://github.com/japnam89/iOS-repository/issues/4
 
