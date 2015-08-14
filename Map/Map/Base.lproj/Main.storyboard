@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Map" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Obb-w7-HIU">
+                                <rect key="frame" x="0.0" y="266" width="600" height="343"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="343" id="GLY-sh-LiA"/>
+                                </constraints>
+                            </mapView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RMm-l7-F0W">
+                                <rect key="frame" x="204" y="28" width="192" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="2pg-Vg-6F0"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="App Created By Japnam ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufV-Ab-AUA">
+                                <rect key="frame" x="204" y="88" width="192" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="kfi-8z-Iyv"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Email:-info@japnam.com">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RMm-l7-F0W" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" symbolic="YES" id="GS0-Tm-Cza"/>
+                            <constraint firstItem="ufV-Ab-AUA" firstAttribute="centerX" secondItem="Obb-w7-HIU" secondAttribute="centerX" id="JrI-BT-fnM"/>
+                            <constraint firstItem="ufV-Ab-AUA" firstAttribute="top" secondItem="RMm-l7-F0W" secondAttribute="bottom" constant="24" id="Ral-oG-MV9"/>
+                            <constraint firstItem="RMm-l7-F0W" firstAttribute="trailing" secondItem="ufV-Ab-AUA" secondAttribute="trailing" id="Wqm-3C-UJU"/>
+                            <constraint firstAttribute="trailing" secondItem="Obb-w7-HIU" secondAttribute="trailing" id="aXU-LT-quR"/>
+                            <constraint firstItem="RMm-l7-F0W" firstAttribute="leading" secondItem="ufV-Ab-AUA" secondAttribute="leading" id="apz-Zs-mFR"/>
+                            <constraint firstItem="Obb-w7-HIU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="lHf-TS-f1b"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="Obb-w7-HIU" secondAttribute="bottom" constant="-9" id="n0S-Zm-tNd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="Map" destination="Obb-w7-HIU" id="wGy-s5-B6S"/>
+                        <outlet property="textLabel" destination="RMm-l7-F0W" id="5wU-FV-YuU"/>
+                        <outlet property="txtEmail" destination="ufV-Ab-AUA" id="ybp-KG-cTU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="165" y="370"/>
+        </scene>
+    </scenes>
+</document>
