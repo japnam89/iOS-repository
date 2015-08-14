@@ -1,5 +1,5 @@
 # iOS-repository
-This is a repository containing iOS assignment that i have done at Humber college.
+This is a repository containing iOS assignments,project that i have learned at humber.
 
 1. Hello Time F
  is an application that displays system time in the center of the screen using NSDate.
