@@ -18,7 +18,7 @@ https://github.com/japnam89/iOS-repository/issues/4
 
 LocalizeMe is an Book Sample(Beginning iOS 7 by apress)
 Added french,german language with their country flag.
-We are printing simply three words Go,hello,thank you in english,french,german languages.
+We are displaying simply three words Go,hello,thank you in english,french,german languages.
 Terms Used:- Localization,NSLocalizedString,NSLocaleIdentifier
  NSLocale,UIKIT,CoreFoundation,CoreGraphics.
 Images Below:-
