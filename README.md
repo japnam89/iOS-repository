@@ -1,5 +1,12 @@
 # iOS-repository
-This is a repository containing iOS assignments,project that i have learned at humber.
+This is a repository containing iOS assignments,project that i have learned at humber/Online.
+Top5vids is an app that gets recent videos from top technology channels from youtube(powered by youtube api v1.3) and you also play them inside the app.
+
+Terms Used:- NSJSONSerialization,Dictionary,YTplayerView,performGetRequest,NSURL,NSData.
+Images here
+https://github.com/japnam89/iOS-repository/issues/6
+
+
 
 Hello Time F is an application that displays system time in the center of the screen using NSDate.
 
