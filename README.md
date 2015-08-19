@@ -1,6 +1,8 @@
 # iOS-repository
 This is a repository containing iOS assignments,project that i have learned at humber/Online.
-Top5vids is an app that gets recent videos from top technology channels from youtube(powered by youtube api v1.3) and you also play them inside the app.
+
+Top5vids is an app that gets recent videos from top technology channels from youtube(powered by youtube api v1.3) and
+you can also play them inside the app.
 
 Terms Used:- NSJSONSerialization,Dictionary,YTplayerView,performGetRequest,NSURL,NSData.
 Images here
