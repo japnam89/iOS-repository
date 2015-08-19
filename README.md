@@ -37,3 +37,10 @@ Map is an simple application that displays map of location using coordinates. (h
 Terms Used:- MapKit,UIKit,MKMapView,MKCoordinationRegion,MKPointAnnotation,CLLocationCoordinate2DMake.
 Image here:-
 https://github.com/japnam89/iOS-repository/issues/5
+
+ParseTwitterLogin 
+Is an app thats uses twitter to login and you can also signup with help of Parse sdk that gives you details of your app like users,analytics etc.
+Images Here:-
+https://github.com/japnam89/iOS-repository/issues/7
+
+
